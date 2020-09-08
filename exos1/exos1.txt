@@ -1,0 +1,5 @@
+a) Chercher sur google les balises HTML suivantes :
+Gras : <br>
+Italique : <i>
+Paragraphe : <p>
+Text : rien
