@@ -1,0 +1,40 @@
+div.style1
+{
+    background-color: #00BFFF; 
+    height: 50px;
+}
+div.style2
+{
+    background-color: #F4A460; 
+    height: 850px;
+    width: 95%;
+    float: right;
+}
+div.style3
+{
+    background-color: #7FFFD4; 
+    height: 50px;
+    clear: both;
+}
+div.style4
+{
+    margin-right: auto;
+    background-color: #A52A2A; 
+    width: 5%;
+    height: 850px;
+    float: left;
+}
+
+div.style2.style4
+{
+    margin-right: auto;
+    border-color: red;
+    background-color: #F4A460; 
+    width: 50px;
+    height: 850px;
+}
+
+div.style5
+{
+    height: 50%; ;
+}
