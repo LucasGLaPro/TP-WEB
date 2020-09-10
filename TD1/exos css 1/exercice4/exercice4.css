@@ -1,0 +1,72 @@
+div.style1
+{
+    background-color: #00BFFF; 
+    height: 50px;
+}
+div.style2
+{
+    background-color: #F4A460; 
+    height: 425px;
+    width: 95%;
+    float: right;
+    clear: both;
+}
+div.style8
+{
+    background-color: #F4A460; 
+    height: 425px;
+    width: 75%;
+    float: center;
+}
+div.style3
+{
+    background-color: #7FFFD4; 
+    height: 50px;
+    clear: both;
+}
+div.style4
+{
+    margin-right: auto;
+    background-color: green; 
+    width: 5%;
+    height: 425px;
+    float: left;
+}
+div.style6
+{
+    margin-right: auto;
+    background-color: purple; 
+    width: 5%;
+    height: 425px;
+    float: left;
+}
+
+div.style2.style4
+{
+    margin-right: auto;
+    border-color: red;
+    background-color: #F4A460; 
+    width: 50px;
+    height: 850px;
+}
+
+div.style5
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.style7
+{
+    background-color: red; 
+    width: 25%;
+    height: 425px;
+    float: right;
+}
+div.style9
+{
+    background-color: #F4A460; 
+    width: 25%;
+    height: 125px;
+    float: right;
+}
