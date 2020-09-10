@@ -6,7 +6,7 @@ div.style1
 div.style2
 {
     background-color: #F4A460; 
-    height: 425px;
+    height: 850px;
     width: 95%;
     float: right;
     clear: both;
@@ -46,8 +46,8 @@ div.style2.style4
     margin-right: auto;
     border-color: red;
     background-color: #F4A460; 
-    width: 50px;
-    height: 850px;
+    width: 100px;
+    height: 100px;
 }
 
 div.style5
@@ -59,14 +59,14 @@ div.style5
 div.style7
 {
     background-color: red; 
-    width: 25%;
-    height: 425px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 div.style9
 {
     background-color: #F4A460; 
-    width: 25%;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     float: right;
 }
