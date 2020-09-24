@@ -1,0 +1,38 @@
+div.style1
+{
+    height: 1080px;
+    width: 33%;
+    background-image: url("image4.png");
+    background-size: 101% 100%;
+    float: left;
+}
+div.style2
+{
+    width: 33%;
+    height: 1080px;
+    background-image: url("image3.png");
+    background-size: 101% 100%;
+    float: right;
+}
+div.style3
+{
+    width: 34%;
+    height: 540px;
+    background-image: url("image.png");
+    align-content: center;
+    background-size: 101% 100%;
+    background-repeat: no-repeat;
+}
+div.style4
+{
+    width: 34%;
+    height: 540px;
+    background-image: url("image2.png");
+    align-content: center;
+    background-size: 101% 100%;
+    background-repeat: no-repeat;
+}
+div.style5
+{
+    height: auto;  
+}
