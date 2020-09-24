@@ -42,5 +42,12 @@ div.style
 }
 div.style2
 {
-    float: right;
+    background-color: white;
 }
+
+body
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
