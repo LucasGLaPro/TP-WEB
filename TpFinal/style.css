@@ -25,7 +25,8 @@ div.style4
 div.style5
 {
     height: auto;
-    margin: 5%;  
+    margin-left: 5%;
+    margin-right: 5%;  
 }
 
 div.style10000
@@ -61,4 +62,23 @@ div.style3 img:hover
 div.style4 img:hover
 {
     -webkit-transform:scale(1.25);
+}
+
+div.style6
+{
+    width: 90%;
+    height: 100px;
+    align-content: left;
+}
+div.style7
+{
+    width: 10%;
+    height: 100px;
+    float: right;
+}
+h1
+{
+    text-align: center;
+    color: red;
+    size: 100px;
 }

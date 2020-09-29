@@ -16,6 +16,7 @@ img
 }
 h1
 {
+    color: rgb(185, 3, 3);
     font-family: "st";
 }
 div.style2
@@ -28,4 +29,26 @@ div.style3
 {
     width: 50%;
     height: 50%;
+}
+div.style4
+{
+margin-left: 5%;
+margin-right: 5%;
+}
+h2
+{
+    color: rgb(185, 3, 3);
+    font-family: "st";
+    text-align: center;
+}
+h4
+{
+    font-family: "st";
+    text-align: left;
+}
+h3
+{
+    color: rgb(185, 3, 3);
+    font-family: "st";
+    text-align: left;
 }
