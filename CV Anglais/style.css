@@ -27,27 +27,19 @@ br
     line-height: small;
 }
 
-div.test
-{
-    background-color: brown;
-}
 
-div.fond
-{
-    background-image: fond.jpeg;
-}
-div.style
-{
-    float: left;
-}
 div.style2
 {
-    background-color: white;
+    border: solid;
+    border-color: red;
 }
 
 body
 {
     margin-left: 20%;
     margin-right: 20%;
-}
+    height: 1080px;
+    background-color: rgb(227, 251, 255);
+    background: linear-gradient(to right, rgb(186, 255, 169), rgb(151, 237, 252), white);
 
+}

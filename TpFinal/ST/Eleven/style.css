@@ -1,0 +1,54 @@
+div.style1
+{
+    height: 400px;
+    width: 18%;
+    float: right;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    font-family: "st";
+    src: url("st.ttf");
+    font-weight: bold;
+}
+h1
+{
+    color: rgb(185, 3, 3);
+    font-family: "st";
+}
+div.style2
+{
+    float: right;
+    height: 50px;
+    width: 5%;;
+}
+div.style3
+{
+    width: 50%;
+    height: 50%;
+}
+div.style4
+{
+margin-left: 5%;
+margin-right: 5%;
+}
+h2
+{
+    color: rgb(185, 3, 3);
+    font-family: "st";
+    text-align: center;
+}
+h4
+{
+    font-family: "st";
+    text-align: left;
+}
+h3
+{
+    color: rgb(185, 3, 3);
+    font-family: "st";
+    text-align: left;
+}
