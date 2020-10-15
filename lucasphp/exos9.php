@@ -63,7 +63,7 @@ if(isset($_POST["Reset"])) {
 }
 
 
-
+highlight_file((__FILE__))
 ?>
 
 </form>

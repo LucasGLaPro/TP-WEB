@@ -30,7 +30,8 @@ if(isset($_POST["Valider"])){
         echo"ya rien";          
 if(isset($_POST["Reset"])) {
     session_destroy();
-}   
+} 
+  highlight_file((__FILE__))
 ?>
 
 </form>

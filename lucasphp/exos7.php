@@ -27,7 +27,7 @@
     } 
     else
         echo"ya rien";          
-
+        highlight_file((__FILE__))
 ?>
 
 </form>
