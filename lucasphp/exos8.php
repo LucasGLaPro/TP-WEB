@@ -19,23 +19,18 @@
     <button type="submit" name="Reset">Reset</button>
 </p>
 <?php
-if(isset($_GET["prenom"])){       
-    if(isset($_POST["Valider"])){
-        $_POST["prenom"] = $_SESSION["prenom"];
-     }
-    
+
+if(isset($_POST["Valider"])){
+    $_SESSION["prenom"] = $_POST["prenom"];
     }
-
-
-    if(isset($_POST["Reset"])){
-        $_SESSION["prenom"]="";}
-
-
     if(isset($_SESSION["prenom"])) {
-        echo"<div class='style1'> ton nom est :".$_SESSION["prenom"]."</div>";
+    echo"<div class='style1'> ton nom est :".$_SESSION["prenom"]."</div>";
     } 
     else
         echo"ya rien";          
+if(isset($_POST["Reset"])) {
+    session_destroy();
+}   
 ?>
 
 </form>

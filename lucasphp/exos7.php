@@ -16,12 +16,11 @@
 <p>
     <input type="text" name="prenom" />
     <input type="submit" name="Valider" />
-    <button type="submit" name="Reset">Reset</button>
 </p>
 <?php
 
     if(isset($_POST["Valider"])){
-    $_POST["prenom"] = $_SESSION["prenom"];
+    $_SESSION["prenom"] = $_POST["prenom"];
     }
     if(isset($_SESSION["prenom"])) {
     echo"<div class='style1'> ton nom est :".$_SESSION["prenom"]."</div>";
