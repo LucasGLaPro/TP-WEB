@@ -14,7 +14,7 @@
 <body>
 
 <?php
-if($_SESSION["co"]){
+if(isset($_SESSION["co"]) && $_SESSION["co"]){
     echo"<div class='style1'> Bienvenue ". $_SESSION["prenom"]."</div>";
 ?>
 <form action="" method="post">
@@ -25,6 +25,7 @@ if($_SESSION["co"]){
 if(isset($_POST["deco"])) {
     session_destroy();
     $_SESSION["co"] = false;
+    header("Refresh:0");
 }   
 } else { ?>
     <form action="" method="post">
