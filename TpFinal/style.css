@@ -1,28 +1,28 @@
-div.style1
+div.style1   /*style de division hyper lien*/
 {
     height: 1080px;
     width: 33%;
     float: left;
 }
-div.style2
+div.style2 /*style de division hyper lien*/
 {
     width: 33%;
     height: 1080px;
     float: right;
 }
-div.style3
+div.style3 /*style de division hyper lien*/
+{
+    width: 34%;
+    height: 1080px;
+    align-content: center;
+}
+div.style4 /*style de division hyper lien*/
 {
     width: 34%;
     height: 540px;
     align-content: center;
 }
-div.style4
-{
-    width: 34%;
-    height: 540px;
-    align-content: center;
-}
-div.style5
+div.style5 /*style de division hyper lien*/
 {
     height: auto;
     margin-left: 5%;
@@ -64,13 +64,13 @@ div.style4 img:hover
     -webkit-transform:scale(1.25);
 }
 
-div.style6
+div.style6 /*style de division hyper lien*/
 {
     width: 90%;
     height: 100px;
     align-content: left;
 }
-div.style7
+div.style7 /*style de division hyper lien*/
 {
     width: 10%;
     height: 100px;

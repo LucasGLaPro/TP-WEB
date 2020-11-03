@@ -1,0 +1,54 @@
+h1
+{
+    font-size: 40px;
+    color: red;
+    text-shadow: -1px -1px red, 1px 1px black, -3px 0 4px #000;
+    display:inline;
+}
+
+h2
+{
+    font-size: 25px;
+    text-decoration: underline;
+    display:inline;
+}
+h3
+{
+    font-size: 20px;
+    display:inline;
+}
+h4
+{
+    font-size: 18px;
+    display:inline;
+}
+br
+{
+    line-height: small;
+}
+
+
+div.style2
+{
+    border: solid;
+    border-color: red;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+body
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 1080px;
+    background-color: rgb(227, 251, 255);
+    background: linear-gradient(to right, rgb(186, 255, 169), rgb(151, 237, 252), white);
+
+}
+.style4 /*pour le drapeau*/
+{
+    width: 10%;
+    min-height: 10vh;
+    float: right;
+}

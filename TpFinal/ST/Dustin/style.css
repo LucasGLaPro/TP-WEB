@@ -1,13 +1,13 @@
-div.style1
+div.style1 /*style de division a droite*/
 {
     height: 400px;
     width: 18%;
     float: right;
 }
-.style7
+img
 {
-    width: 100%;
-    min-height: 20vh;
+    width: 130%;
+    height: 80%;
 }
 @font-face{
     font-family: "st";
@@ -52,36 +52,19 @@ h3
     font-family: "st";
     text-align: left;
 }
-div.style5
+body
 {
-    min-height: 10vh;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-image: url("back.png");
-    
-}
-h5
-{
-    color: rgb(255, 0, 0);
-    font-family: "st";
-    font-size: 30px;
-    display: inline;
-}
-.style6
-{
-    min-height: 10vh;
-    width: 20%;
-}
-.style8
-{
-    min-height: 8vh;
-    width: 8%;
-}
-.style9
-{
-    margin-right: 5%;
-    margin-left: 5%;
-}
+    background-color: white;
+    opacity: 0.8;
+    margin: 5%;
+    min-height: 100vh;
 
-
-
+}
+html /*style du fond*/
+{
+    background-attachment: fixed;
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    height: auto;
+}
